@@ -1,0 +1,14 @@
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\bin\Debug\01_TypesandVariables.dll
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\bin\Debug\01_TypesandVariables.pdb
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\obj\Debug\01_TypesandVariables.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\obj\Debug\01_TypesandVariables.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\obj\Debug\01_TypesandVariables.csproj.CopyComplete
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\obj\Debug\01_TypesandVariables.dll
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\01_TypesandVariables\obj\Debug\01_TypesandVariables.pdb
