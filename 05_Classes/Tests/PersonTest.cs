@@ -20,8 +20,9 @@ namespace _05_Classes.Tests
             person.DateOfBirth = new DateTime(1985, 9, 22);
             Console.WriteLine($"{person.FirstName} {person.LastName}, age {person.Age}");
 
-            Console.WriteLine(person.FullName);
+            Console.WriteLine(person.DateOfBirth);
 
+            
             Person otherPerson = new Person(
                 "Ashley",
                 "Lawrence",
@@ -32,6 +33,15 @@ namespace _05_Classes.Tests
             Console.WriteLine(otherPerson.FullName);
             Console.WriteLine("make:" + otherPerson.Vehicle.Make);
             // otherPerson.FirstName = "Ash";
+        }
+
+        [TestMethod]
+        public void IdTest()
+        {
+            for (int i=0; i<10; i++)
+            {
+                User user = new User("dsfh");
+            }
         }
     }
 }

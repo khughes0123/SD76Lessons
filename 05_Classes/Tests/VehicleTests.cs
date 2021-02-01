@@ -16,7 +16,7 @@ namespace _05_Classes.Tests
             Console.WriteLine(firstVehicle.Make);
             firstVehicle.Make = "CEC";
             firstVehicle.Model = "YT- 1300F";
-            firstVehicle.Mileage = 24000;
+            firstVehicle.Mileage = 24000000;
             firstVehicle.Type = VehicleType.Spaceship;
         }
 
@@ -29,5 +29,7 @@ namespace _05_Classes.Tests
             // myCar .IsRunning = false; <- gives an error because the setter is private
             Console.WriteLine(myCar.IsRunning);
         }
+
+        
     }
 }

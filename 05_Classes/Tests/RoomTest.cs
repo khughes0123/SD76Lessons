@@ -8,17 +8,14 @@ namespace _05_Classes.Tests
     public class RoomTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Volume()
         {
-            Room room = new Room();
-            room.length = 5;
-            room.width = 1;
-            room.height = 5;
+            Room closet = new Room(5, 1, 5);
+            Console.WriteLine("closet SurfaceArea: " + closet.SurfaceArea);
+            Console.WriteLine("closet Volume:" + closet.Volume);
+            
 
-            Console.WriteLine(room.length);
-            Console.WriteLine(room.width);
-            Console.WriteLine(room.height);
-
+            
         }
     }
 }

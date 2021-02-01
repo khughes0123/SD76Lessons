@@ -11,6 +11,7 @@ namespace _01_TypesandVariables
         [TestMethod]
         public void Strings()
         {
+            DateTime birthday = DateTime.Now;
             string firstName = "Andrew";
             string lastName = "Torr";
 

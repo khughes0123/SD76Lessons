@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace _05_Classes.Classes
 {
-     public class Person
-    {   
+    public class Person
+    {
         // The usual order, this is just for org sake
         // Fields
         // Properties
+        // constructors
+        // methods
         //- tend to be accessible from outside
         //- use Pascal case
         public string FirstName { get; set; }
@@ -24,8 +26,27 @@ namespace _05_Classes.Classes
         // for outside access
         public string LastName
         {
-            get { return "\"" +_lastName + "\""; }
+            get { return "\"" + _lastName + "\""; }
             set { _lastName = value.ToUpper(); }
+        }
+
+        private int _myVar;
+
+        public int MyProperty
+        {
+            get
+            {
+                if (_myVar % 2 == 0)
+                {
+                    return _myVar;
+                }
+                else
+                {
+                    return 2 * _myVar;
+                }
+
+            }
+            set { _myVar = value; }
         }
 
         // No backing field
@@ -43,7 +64,7 @@ namespace _05_Classes.Classes
                 return $"{FirstName} {LastName}";
             }
         }
-        
+
         public DateTime DateOfBirth { get; set; }
 
         public int Age
@@ -61,7 +82,7 @@ namespace _05_Classes.Classes
 
         // Empty Constructor
 
-        public Person () { }
+        public Person() { }
         // Full Constructor (overload)
         // Overloaded means there are multiple versions
         public Person(string firstName, string lastName, DateTime dob, Vehicle vehicle)
@@ -72,7 +93,12 @@ namespace _05_Classes.Classes
             Vehicle = vehicle;
         }
 
+        public void SayHello()
+        {
         
+        Console.WriteLine($"{FullName } says 'Hello'" );
+        }
+
         
        
     }

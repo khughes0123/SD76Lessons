@@ -8,23 +8,40 @@ namespace _05_Classes.Classes
 {
     public class Room
     {
-        public int length { get; set; }
-        public int width { get; set; }
-        public int height { get; set; }
+        public int Length { get; set; }
+        public int Width { get; set; }
+        public int Height { get; set; }
 
         public int SurfaceArea
-        
+
         {
             get
             {
-                int topandBottom = 2 *
-                return (
-                    2 * length * width +
-                    2 * length * height +
-                    2 * width * height
 
-                    );
+                return (
+                    2 * Length * Width +
+                    2 * Length * Height +
+                    2 * Width * Height);
+
             }
+        }
+
+        public int Volume
+        {
+            get
+            {
+                return Length * Width * Height;
+            }
+        }
+
+        public Room() { }
+
+        public Room(int length, int width, int height)
+        {
+            Length = length;
+            Width = width;
+            Height = height;
+
         }
     }
 }

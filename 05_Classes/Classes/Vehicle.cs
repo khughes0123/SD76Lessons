@@ -78,8 +78,8 @@ namespace _05_Classes.Classes
 
         public void ClearIndicators()
         {
-            RightBlinker.TurnOn();
-            LeftBlinker.TurnOn();
+            RightBlinker.TurnOff();
+            LeftBlinker.TurnOff();
         }
     }
 
