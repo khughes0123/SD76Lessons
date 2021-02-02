@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace _07_RepositoryPattern_Repo
         public string Title { get; set; }
         public string Description { get; set; }
         public double StarRating { get; set; }
-        public MaturityRating MaturityRating { get; set; }
+        public Maturity MaturityRating { get; set; }
 
         // Make IsFamilyFriendly read-only (only a getter)
         // Based on the MaturityRating
@@ -28,11 +28,12 @@ namespace _07_RepositoryPattern_Repo
                 // || ...)
                 switch (MaturityRating)
                 {
-                    case MaturityRating.PG:
-                    case MaturityRating.G:
-                    case MaturityRating.TVG:
-                    case MaturityRating.TVY7:
-                    case MaturityRating.TVY:
+                    case Maturity.PG13:
+                    case Maturity.PG:
+                    case Maturity.G:
+                    case Maturity.TVG:
+                    case Maturity.TVY7:
+                    case Maturity.TVY:
                         return true;
                     default:
                         return false;
@@ -44,7 +45,12 @@ namespace _07_RepositoryPattern_Repo
         public GenreType GenreType { get; set; }
 
         public StreamingContent() { }
-        public StreamingContent(string title, string description, double stars, MaturityRating maturityRating, GenreType genre)
+        public StreamingContent
+            (string title, 
+            string description, 
+            Maturity maturityRating,
+            double stars,
+            GenreType genre)
         {
             Title = title;
             Description = description;
@@ -59,9 +65,9 @@ namespace _07_RepositoryPattern_Repo
     }
 }
 
-public enum GenreType { Horror, Comedy, SciFi, Romance, Romans, Action, International }
+public enum GenreType { SciFiComedy, Drama, Horror, Comedy, SciFi, Romance, Romans, Action, International }
 
-public enum MaturityRating { G, PG, R, TVG, PG13, NC17, TVY, TVY7, TVMA, TVPG } }
+public enum Maturity { G, PG, R, TVG, PG13, NC17, TVY, TVY7, TVMA, TVPG } }
     
 
 
