@@ -1,0 +1,12 @@
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\bin\Debug\12_APIs.exe.config
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\bin\Debug\12_APIs.exe
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\bin\Debug\12_APIs.pdb
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\obj\Debug\12_APIs.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\obj\Debug\12_APIs.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\obj\Debug\12_APIs.exe
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\obj\Debug\12_APIs.pdb
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\bin\Debug\Newtonsoft.Json.dll
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\bin\Debug\System.Net.Http.Formatting.dll
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\bin\Debug\Newtonsoft.Json.xml
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\bin\Debug\System.Net.Http.Formatting.xml
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\12_APIs\obj\Debug\12_APIs.csproj.CopyComplete

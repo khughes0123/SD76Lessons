@@ -1,0 +1,7 @@
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\FizzBuzz\bin\Debug\FizzBuzz.exe.config
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\FizzBuzz\bin\Debug\FizzBuzz.exe
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\FizzBuzz\obj\Debug\FizzBuzz.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\FizzBuzz\obj\Debug\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\FizzBuzz\obj\Debug\FizzBuzz.exe
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\FizzBuzz\obj\Debug\FizzBuzz.pdb

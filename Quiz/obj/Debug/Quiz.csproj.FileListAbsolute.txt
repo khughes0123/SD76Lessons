@@ -1,0 +1,7 @@
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\Quiz\bin\Debug\Quiz.exe.config
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\Quiz\bin\Debug\Quiz.exe
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\Quiz\bin\Debug\Quiz.pdb
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\Quiz\obj\Debug\Quiz.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\Quiz\obj\Debug\Quiz.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\Quiz\obj\Debug\Quiz.exe
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\Quiz\obj\Debug\Quiz.pdb

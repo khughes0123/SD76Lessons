@@ -46,8 +46,8 @@ namespace _07_RepositoryPattern_Repo
 
         public StreamingContent() { }
         public StreamingContent
-            (string title, 
-            string description, 
+            (string title,
+            string description,
             Maturity maturityRating,
             double stars,
             GenreType genre)
@@ -59,20 +59,21 @@ namespace _07_RepositoryPattern_Repo
             GenreType = genre;
 
 
- 
 
 
+
+        }
     }
+
+    public enum GenreType { Horro = 1, Comedy, SciFi, Drama, Romance, Romans, Action, International }
+
+    public enum Maturity { G = 1, PG, R, TVG, PG13, NC17, TVY, TVY7, TVMA, TVPG }
 }
 
-public enum GenreType { SciFiComedy, Drama, Horror, Comedy, SciFi, Romance, Romans, Action, International }
-
-public enum Maturity { G, PG, R, TVG, PG13, NC17, TVY, TVY7, TVMA, TVPG } }
-    
 
 
-    
-            
+
+
 
 
 

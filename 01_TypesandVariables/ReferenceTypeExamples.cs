@@ -28,7 +28,7 @@ namespace _01_TypesandVariables
 
         [TestMethod]
         public void Collections()
-        { 
+        {
             string stringExample = "Hello world!";
 
             string[] stringArray = { "Hello", "World", "Why", "is", "it", "always", stringExample };
@@ -58,10 +58,10 @@ namespace _01_TypesandVariables
             firstInFirstOut.Enqueue("I'm next");
             firstInFirstOut.Enqueue("I'm third");
 
-            
+
             Console.WriteLine(firstInFirstOut.Dequeue());
             Console.WriteLine(firstInFirstOut.Dequeue());
-            
+
 
             // Dictionaries
 
@@ -78,7 +78,7 @@ namespace _01_TypesandVariables
             importantNumbers.Add("phi", 1.681033m);
             Console.WriteLine(importantNumbers["pi"]);
 
-            Dictionary<string, Dictionary<string, string>>dictionaryception= new Dictionary<string, Dictionary<string, string>>();
+            Dictionary<string, Dictionary<string, string>> dictionaryception = new Dictionary<string, Dictionary<string, string>>();
 
             SortedList<int, string> sortedKeyAndValue = new SortedList<int, string>();
             sortedKeyAndValue.Add(13, "blah");
@@ -90,7 +90,7 @@ namespace _01_TypesandVariables
             Console.WriteLine(uniqueList.Overlaps(otherHashSet));
 
 
-        
+
         }
 
         [TestMethod]

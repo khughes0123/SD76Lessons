@@ -82,7 +82,7 @@ namespace _08_RepositoryPattern_Tests
 
             //Assert
             Assert.AreEqual(3, _testShow.EpisodeCount, 3);
-            Assert.AreEqual(_testShow.AverageRunTime, 47.0);
+            Assert.AreEqual(47.0, _testShow.AverageRunTime, 47.0);
         }
     }
 }

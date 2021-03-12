@@ -1,4 +1,5 @@
 ﻿using _07_RepositoryPattern_Repo;
+using _07_RepositoryPattern_Repo.Content;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -41,6 +42,23 @@ namespace _08_RepositoryPattern_Tests
                 GenreType.Drama
                 );
             _repo.AddContentToDirectory(_content);
+
+
+            Show show = new Show();
+            show.Title = "Arrested Development";
+            show.SeasonCount = 4; //
+            Episode ep = new Episode();
+            ep.Title = "Courting Disasters";
+            Episode ep2 = new Episode();
+            ep2.Title = "Pier Pressure";
+
+            _repo.AddContentToDirectory(show);
+
+            Movie movie = new Movie();
+            movie.Title = "Roller Blade";
+            movie.Description = "In a world of blood and greed, curvaceous crusaders battle to rebuild a battered land.";
+
+            _repo.AddContentToDirectory(movie);
         }
 
         [TestMethod]
@@ -100,7 +118,7 @@ namespace _08_RepositoryPattern_Tests
                 " A start pilot and his sidekick parody Star Wars",
                 Maturity.PG13,
                 5,
-                GenreType.SciFiComedy
+                GenreType.SciFi
                 );
 
            bool wasUpdated = _repo.UpdateExistingContent("Spaceballs", newContent);
@@ -109,21 +127,21 @@ namespace _08_RepositoryPattern_Tests
 
             StreamingContent updatedContent = _repo.GetContentByTitle("Spaceballs");
 
-            GenreType expected = GenreType.SciFiComedy;
+            GenreType expected = GenreType.SciFi;
             GenreType actual = updatedContent.GenreType;
 
             Assert.AreEqual(expected, actual);
             Console.WriteLine(updatedContent.Description);
         }
 
-        [TestMethod]
+        /*[TestMethod]
         public void DeleteContent_ShouldDelete()
         {
-            bool wasRemoved = _repo.DeleteContent("the room");
+            bool wasRemoved = _repo.DeleteContent("The Room");
             Assert.IsTrue(wasRemoved);
 
-            bool wasAlsoRemoved = _repo.DeleteContent("fjdakjf");
-            Assert.IsFalse(wasAlsoRemoved);
+            bool wasAlsoRemoved = _repo.DeleteContent("The Room");
+            Assert.IsFalse(wasAlsoRemoved);*/
         }
     }
 }

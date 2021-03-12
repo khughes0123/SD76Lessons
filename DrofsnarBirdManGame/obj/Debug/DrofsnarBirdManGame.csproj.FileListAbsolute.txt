@@ -1,0 +1,7 @@
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\DrofsnarBirdManGame\obj\Debug\DrofsnarBirdManGame.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\DrofsnarBirdManGame\obj\Debug\DrofsnarBirdManGame.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\DrofsnarBirdManGame\bin\Debug\DrofsnarBirdManGame.exe.config
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\DrofsnarBirdManGame\bin\Debug\DrofsnarBirdManGame.exe
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\DrofsnarBirdManGame\bin\Debug\DrofsnarBirdManGame.pdb
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\DrofsnarBirdManGame\obj\Debug\DrofsnarBirdManGame.exe
+C:\ElevenFiftyProjects\GOLD BADGE C#\SD76Lessons\DrofsnarBirdManGame\obj\Debug\DrofsnarBirdManGame.pdb

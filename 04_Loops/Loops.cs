@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using _11_IConsole;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 
@@ -24,18 +25,17 @@ namespace _04_Loops
             Console.WriteLine(++number);
 
             Random randy = new Random();
-            int someNumber = randy.Next(0, 21);
-
-            while (true)
+            for (int i =0; i !=7; i = randy.Next(0, 21))
             {
-                someNumber = randy.Next(0, 21);
-                if (someNumber == 7)
-                { 
-                    break; 
+               
+                if (i == 5)
+                {
+                    FunConsole console = new FunConsole("Ashley");
+                    console.WriteLine("FIVE!!");
                 }
-
+                Console.WriteLine(i);
             }
-            Console.WriteLine("out of the loop!");
+            
         }
 
         [TestMethod]
